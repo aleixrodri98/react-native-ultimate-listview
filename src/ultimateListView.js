@@ -3,14 +3,13 @@ import PropTypes from 'prop-types'
 import {
   ActivityIndicator,
   Dimensions,
-  FlatList,
   RefreshControl,
-  ScrollView,
   StyleSheet,
   Text,
   View
 } from 'react-native'
 import RefreshableScrollView from './refreshableScrollView'
+import { ScrollView, FlatList } from 'react-navigation'
 
 
 const { width, height } = Dimensions.get('window')
